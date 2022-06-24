@@ -8,13 +8,14 @@ body {
 h1, h2, h3 {
   font-family: 'Exo 2', sans-serif;
   font-size: 55px;
-	margin-bottom: 20px;
+  margin-bottom: 20px;
   color: #c9e265;
 }
-h4{
-	font-family: 'Exo 2', sans-serif;
-	font-size: 40px;
-	margin-bottom: 20px;
+
+h4 {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
   color: #c9e265;
 }
 
@@ -24,27 +25,28 @@ p {
 
 /* header menu*/
 #header {
-	opacity: 1;
+  opacity: 1;
   width: 100%;
   height: 80px;
   padding: 0px;
-	margin-bottom: 20px;
+  margin-bottom: 20px;
   background-color: #000;
   border-radius: 20px;
   position: -webkit-sticky;
   /* Safari */
   position: sticky;
   top: 0;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#logo-title{
-display: flex;
-justify-content: flex-start;
 
+#logo-title {
+  display: flex;
+  justify-content: flex-start;
 }
-#menunav{
+
+#menunav {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
@@ -58,7 +60,7 @@ justify-content: flex-start;
   color: #7ed957;
   line-height: 60px;
   margin-right: 20px;
-	margin-left: 5px;
+  margin-left: 5px;
   float: right;
 }
 
@@ -93,32 +95,32 @@ justify-content: flex-start;
 #pagetop {
   display: flex;
   flex-direction: column;
-	align-items: center;
-	justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
 #hello {
   width: 100%;
-	display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
-#hellobox{
-	height: 100px;
-	width: 500px;
-	font-size: 80px !important;
-	margin: 10px;
+
+#hellobox {
+  height: 100px;
+  width: 500px;
+  font-size: 80px !important;
+  margin: 10px;
   color: #c9e265;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
-	visibility: hidden;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  visibility: hidden;
 }
+
 @keyframes fadein {
   0% {
     visibility: visible;
@@ -131,24 +133,23 @@ justify-content: flex-start;
   }
 }
 
-#scroll{
- width: 300px;
+#scroll {
+  width: 300px;
   margin: 10px;
-	font-size: 30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
-	opacity: 0;
-	animation: fadein;
-	animation-duration: 2s;
-	animation-delay: 1500ms;
-	animation-direction: normal;
-	animation-fill-mode: forwards;
-
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  opacity: 0;
+  animation: fadein;
+  animation-duration: 2s;
+  animation-delay: 1500ms;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
 }
-/* letters typing hello*/
 
+/* letters typing hello*/
 @keyframes welcome {
   0% {
     visibility: hidden;
@@ -175,6 +176,7 @@ justify-content: flex-start;
   animation-fill-mode: forwards;
   margin: 0px;
 }
+
 #q-h {
   animation-name: welcome;
   animation-duration: 150ms;
@@ -183,6 +185,7 @@ justify-content: flex-start;
   animation-fill-mode: forwards;
   margin: 0px;
 }
+
 #q-e {
   animation-name: welcome;
   animation-duration: 150ms;
@@ -191,6 +194,7 @@ justify-content: flex-start;
   animation-fill-mode: forwards;
   margin: 0px;
 }
+
 #q-l {
   animation-name: welcome;
   animation-duration: 150ms;
@@ -199,6 +203,7 @@ justify-content: flex-start;
   animation-fill-mode: forwards;
   margin: 0px;
 }
+
 #q-ll {
   animation-name: welcome;
   animation-duration: 150ms;
@@ -207,7 +212,8 @@ justify-content: flex-start;
   animation-fill-mode: forwards;
   margin: 0px;
 }
-#q-o{
+
+#q-o {
   animation-name: welcome;
   animation-duration: 150ms;
   animation-delay: 850ms;
@@ -215,6 +221,7 @@ justify-content: flex-start;
   animation-fill-mode: forwards;
   margin: 0px;
 }
+
 #q-period {
   animation-name: welcome;
   animation-duration: 150ms;
@@ -233,123 +240,119 @@ justify-content: flex-start;
   justify-content: space-between;
   overflow: hidden;
 }
+
 @keyframes hoverblue {
   0% {
-		border-radius: 50%;
-		background-color: #000;
-		border-color: #fff;
-		border-width: thin;
-		margin: 30px;
-		padding: 15px;
-
+    border-radius: 50%;
+    background-color: #000;
+    border-color: #fff;
+    border-width: thin;
+    margin: 30px;
+    padding: 15px;
   }
+
   100% {
-		background-color: #7ed957;
-		box-shadow: 3px 3px 20px 10px #7ed957;
-		border-style: none;
+    background-color: #7ed957;
+    box-shadow: 3px 3px 20px 10px #7ed957;
+    border-style: none;
     visibility: hidden;
   }
 }
 
-
-
 .bluelight {
-	border-radius: 50%;
-	background-color: #000;
-	border-color: #fff;
-	border-width: thin;
-	margin: 30px;
-	padding: 15px;
-	animation-name: hoverblue;
+  border-radius: 50%;
+  background-color: #000;
+  border-color: #fff;
+  border-width: thin;
+  margin: 30px;
+  padding: 15px;
+  animation-name: hoverblue;
   animation-play-state: paused;
 }
 
 .bluelight:hover, .bluelight:focus, .bluelight:active {
-	animation-play-state: running;
-	animation-duration: 600ms;
-	animation-direction: normal;
-	animation-fill-mode: forwards;
-
+  animation-play-state: running;
+  animation-duration: 600ms;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
 }
 
 /* About section*/
-
 #About {
-	width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-	overflow: hidden;
+  overflow: hidden;
 }
-.neattext{
+
+.neattext {
   text-align: left;
-	width:600px;
+  width: 600px;
   font-family: 'Zen Kaku Gothic Antique', sans-serif !important;
-	font-size: 20px !important;
+  font-size: 20px !important;
 }
 
-
-.block-container{
-	width: 90%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
-
+.block-container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-.block{
-	font-family: 'Cutive Mono', monospace;
-	font-size: 20px;
-	margin: 10px;
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	overflow: hidden;
 
+.block {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 20px;
+  margin: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
 }
-li{
 
+li {
   font-family: 'Zen Kaku Gothic Antique', sans-serif !important;
   font-size: 20px !important;
 }
 
 /*Portfolio section*/
-
 #Portfolio {
   display: flex;
   align-items: center;
   flex-direction: column;
-	overflow: hidden;
+  overflow: hidden;
 }
-#subheader{
+
+#subheader {
   margin-bottom: 40px;
   font-size: 20px;
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
-#builtsites{
-	width: 90%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 
-}
-.site-links{
-	opacity: 0.6;
-	height: 250px;
-	overflow: hidden;
-
-}
-.site-links:hover{
-	opacity: 1;
-}
-.webimg{
-	height: 250px;
-	width: 380px;
+#builtsites {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+.site-links {
+  opacity: 0.6;
+  height: 250px;
+  overflow: hidden;
+}
+
+.site-links:hover {
+  opacity: 1;
+}
+
+.webimg {
+  height: 250px;
+  width: 380px;
+}
 
 /* Contact section*/
-
 #Contact {
   display: flex;
   align-items: center;
@@ -362,153 +365,161 @@ li{
 
 #getintouch {
   text-align: left;
-	font-size: 18px;
+  font-size: 18px;
   width: 400px;
   margin-top: 0px;
   margin-bottom: 20px;
 }
-.contacttext{
+
+.contacttext {
   font-family: 'Zen Kaku Gothic Antique', sans-serif;
   font-size: 20px;
 }
 
-.brighttext{
+.brighttext {
   color: #c9e265;
 }
 
 /*Mobile css*/
-
 @media screen and (max-width: 800px) {
-  body{
-width: 100%
-overflow:hidden;
-
+  body {
+    width: 100% overflow:hidden;
   }
-	#header {
-		position: static;
-	  width: 100%;
-	  padding: 0px;
-	  background-color: #000;
-	  border-radius: 20px;
-	  top: 0;
-    flex-direction: column;
 
-	}
+  #header {
+    position: static;
+    width: 100%;
+    padding: 0px;
+    background-color: #000;
+    border-radius: 20px;
+    top: 0;
+    flex-direction: column;
+  }
+
   .menulinks {
     float: none;
     font-size: 14px;
-		margin-bottom: 20px;
+    margin-bottom: 20px;
   }
-  #logo-title{
+
+  #logo-title {
     display: flex;
-      width: 100%;
+    width: 100%;
     flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 8px;
   }
- #menunav{
-   flex-direction: row-reverse;
-     width: 100%;
-   justify-content: space-around;
- }
 
-	#title {
-	  font-size: 40px;
-	  font-family: 'Zen Kurenaido', sans-serif;
-	  color: #7ed957;
-	  margin-left: 10px;
-	  margin-top: 0px;
-	  margin-bottom: 0px;
-		display: inline-block;
-	  float: left;
-	}
-  #pagetop{
+  #menunav {
+    flex-direction: row-reverse;
     width: 100%;
-   justify-content: space-around;
-
+    justify-content: space-around;
   }
-.colored-lights{
-  width: 80%;
-}
-  #hellobox{
-   height: 60px;
-    width: 80%;
+
+  #title {
+    font-size: 40px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: #7ed957;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    float: left;
+  }
+
+  #pagetop {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .colored-lights {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  #hellobox {
+    height: 60px;
+    width: 70%;
     font-size: 65px !important;
   }
-  #scroll{
-    width: 70%;
+
+  #scroll {
+    width: 60%;
   }
-	.neattext{
+
+  .neattext {
     text-align: left;
-		width:80%;
-		font-size: 18px !important;
-	}
+    width: 80%;
+    font-size: 18px !important;
+  }
 
-
-
-  li{
+  li {
     font-size: 18px !important;
     text-align: left;
     margin-left: 0px;
     margin-right: 0px;
   }
-  .block-container{
+
+  .block-container {
     width: 100%;
   }
-  .block{
+
+  .block {
     justify-content: space-around;
   }
-  #subheader{
+
+  #subheader {
     width: 90%;
     font-size: 18px;
   }
-	#builtsites{
-		width: 90%;
-		display: flex;
-		flex-direction: column;
-		overflow: hidden;
 
-	}
-	.site-links{
-		opacity: 0.8;
-		height: 270px;
-		overflow: hidden;
-	}
-	.webimg{
-		height: 230px;
-		width: 350px;
+  #builtsites {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
 
-	}
-  #getintouch{
+  .site-links {
+    opacity: 0.8;
+    height: 270px;
+    overflow: hidden;
+  }
+
+  .webimg {
+    height: 230px;
+    width: 350px;
+  }
+
+  #getintouch {
     width: 70%;
   }
-  .contacttext{
+
+  .contacttext {
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-size: 18px;
   }
-	#containerbox {
+
+  #containerbox {
     text-align: left;
-		height: 800px;
-	  width: 70%;
-	  display: flex;
-	  overflow: hidden;
-		align-self: flex-start;
-	  flex-direction: column;
-	  align-items: center;
-	  justify-content: center;
-	}
-
-
-  #getintouch{
-    width: 80%;
-
+    height: 800px;
+    width: 70%;
+    display: flex;
+    overflow: hidden;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-	.formcontainer {
-	  width: 80%;
-	}
+  #getintouch {
+    width: 80%;
+  }
 
-
-
-
+  .formcontainer {
+    width: 80%;
+  }
 }
