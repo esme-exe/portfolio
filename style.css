@@ -437,7 +437,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    overflow: hidden;
+    overflow: visible;
   }
 
   #hellobox {
