@@ -428,8 +428,9 @@ li {
   }
 
   #pagetop {
-    width: 100%;
+    width: 100% !important;
     justify-content: space-around;
+    overflow: visible;
   }
 
   .colored-lights {
